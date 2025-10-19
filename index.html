@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>NC — CS/AI Portfolio</title>
+  <meta name="description" content="NC — Computer Science & AI student with research in NASA SEP, agentic RAG systems, robotics, & hackathons." />
+  <meta name="theme-color" content="#0b1220" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container row">
+      <div class="brand">
+        <span class="logo">NC</span>
+        <div class="brand-text">
+          <strong>NC</strong>
+          <small>Computer Science • AI</small>
+        </div>
+      </div>
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#research">Research</a>
+        <a href="#resume">Resume</a>
+        <a href="#blog">Notes</a>
+        <a href="#contact" class="cta">Contact</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="hero container">
+      <div class="hero-text">
+        <h1>Hi, I’m <span class="accent">NC</span> — I build <span class="underline">AI systems</span> that make science move faster.</h1>
+        <p class="lead">
+          HS senior (3.8 UW / 4.35 W, SAT 1550). I design and ship projects in <b>AI/ML</b>, <b>agentic RAG</b>, and <b>robotics</b>.
+          My recent work includes forecasting solar-wind behavior (NASA OMNI) and building Azure-native retrieval agents for scientists.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn">See Projects</a>
+          <a href="#contact" class="btn btn-ghost">Let’s talk</a>
+        </div>
+        <ul class="quick-stats">
+          <li>Science Olympiad • Robotics • Hackathons</li>
+          <li>AP CSA, Calc BC, Multivariable, Linear Algebra, AP Physics, AP Bio</li>
+          <li>Interests: CS Theory, MLOps, Space Weather, Human‑centered AI</li>
+        </ul>
+      </div>
+      <div class="hero-card">
+        <div class="card">
+          <h3>Application Snapshot</h3>
+          <ul>
+            <li><b>Intended Major:</b> Computer Science / AI</li>
+            <li><b>Focus:</b> Agentic RAG • SEP/solar wind prediction</li>
+            <li><b>Target Schools:</b> MIT, Stanford, CMU, Cornell, Berkeley, UIUC, Georgia Tech, Michigan, UVA, Purdue, VT, NYU</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section id="about" class="container about">
+      <h2>About</h2>
+      <p>
+        I love turning curiosity into shipped systems. From building LLM tools that read space-physics papers with citations,
+        to training time‑series models over OMNI/ACE/DSCOVR data, I enjoy projects where math, software, and real‑world impact meet.
+        Outside class, I mentor and collaborate through robotics and Science Olympiad.
+      </p>
+      <div class="pill-list">
+        <span class="pill">Python</span><span class="pill">PyTorch</span><span class="pill">Azure OpenAI</span>
+        <span class="pill">Azure AI Search</span><span class="pill">Azure Functions</span><span class="pill">Kusto (ADX)</span><span class="pill">GitHub CI/CD</span>
+      </div>
+    </section>
+    <section id="projects" class="container">
+      <h2>Highlighted Projects</h2>
+      <div id="project-grid" class="grid"></div>
+      <div class="note">More on <a href="#" id="githubLink">GitHub</a> (add your repo link).</div>
+    </section>
+    <section id="research" class="container">
+      <h2>Research</h2>
+      <div class="card-list">
+        <article class="card">
+          <h3>Solar Wind Speed Forecasting (OMNI)</h3>
+          <p>BiLSTM/Transformer baselines to predict V<sub>sw</sub>, with event‑window evaluation around CMEs and flares.</p>
+          <ul class="meta">
+            <li>Data: OMNI 5‑min; ACE/DSCOVR</li><li>Methods: lags, rolling stats, sequence models</li><li>Goal: uncertainty‑aware forecasts</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>Agentic RAG for Space‑Physics</h3>
+          <p>Azure‑native retrieval & tools: hybrid search, ADX time‑series, code‑exec sandbox, citation guardrails.</p>
+          <ul class="meta">
+            <li>Stack: Azure OpenAI, AI Search, Functions, ADX</li><li>Features: self‑check + citations</li><li>Outcome: faster literature triage</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+    <section id="resume" class="container">
+      <h2>Resume</h2>
+      <p>Download the latest copy of my resume here:</p>
+      <a class="btn" href="assets/NC_Resume.pdf" download>Download PDF</a>
+      <p class="hint">Replace the file at <code>/assets/NC_Resume.pdf</code> with your actual resume.</p>
+    </section>
+    <section id="blog" class="container">
+      <h2>Notes & Writing</h2>
+      <div class="card-list" id="notes-list">
+        <article class="card"><h3>On building agentic systems responsibly</h3>
+          <p>Reflections on citations, uncertainty, and the line between assistance and speculation in LLM tools for science.</p>
+          <small class="muted">Add more posts as markdown or HTML files in <code>/notes</code>.</small>
+        </article>
+      </div>
+    </section>
+    <section id="contact" class="container contact">
+      <h2>Contact</h2>
+      <div class="contact-grid">
+        <div>
+          <p>Email is best; I’m also active on GitHub and LinkedIn.</p>
+          <ul class="contact-links">
+            <li><a href="mailto:your@email">
+              <span class="icon">✉️</span> Email
+            </a></li>
+            <li><a href="https://github.com/yourusername" target="_blank">
+              <span class="icon">💻</span> GitHub
+            </a></li>
+            <li><a href="https://www.linkedin.com/in/yourhandle" target="_blank">
+              <span class="icon">🔗</span> LinkedIn
+            </a></li>
+          </ul>
+        </div>
+        <form id="msgForm">
+          <label for="name">Name</label>
+          <input id="name" name="name" placeholder="Your name" />
+          <label for="email">Email</label>
+          <input id="email" name="email" placeholder="you@example.com" />
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4" placeholder="Hello! I’d love to connect about…"></textarea>
+          <button class="btn" type="submit">Send (opens mail)</button>
+          <small class="muted">This form opens your email client with a prefilled message. For serverless submit, add Netlify or Azure Logic Apps.</small>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container row">
+      <span>© <span id="year"></span> NC — CS/AI</span>
+      <a href="#" id="topLink">Back to top ↑</a>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

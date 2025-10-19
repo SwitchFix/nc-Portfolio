@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Solar Wind Forecasting (OMNI)",
+    "summary": "BiLSTM/Transformer baselines to predict Vsw, with event-window evaluation around CMEs/flares.",
+    "tags": [
+      "Python",
+      "Time-Series",
+      "BiLSTM",
+      "Transformers",
+      "OMNI"
+    ],
+    "code": "https://github.com/yourusername/solar-wind-forecasting",
+    "demo": ""
+  },
+  {
+    "title": "Agentic RAG for Space Physics",
+    "summary": "Azure OpenAI + AI Search + ADX tools, with self-check reasoning and mandatory citations.",
+    "tags": [
+      "Azure OpenAI",
+      "Cognitive Search",
+      "Kusto",
+      "Functions"
+    ],
+    "code": "https://github.com/yourusername/azure-agentic-rag-sep",
+    "demo": ""
+  },
+  {
+    "title": "Robotics & Science Olympiad",
+    "summary": "Autonomous tasks and mentor notes; write-ups and slides for team strategy.",
+    "tags": [
+      "Robotics",
+      "Leadership",
+      "C++/Python"
+    ],
+    "code": "https://github.com/yourusername/robotics-notes",
+    "demo": ""
+  }
+]
